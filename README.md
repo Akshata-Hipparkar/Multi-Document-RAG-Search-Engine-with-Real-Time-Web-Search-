@@ -1,3 +1,74 @@
+# 🚀 GA02: Multi-Document Hybrid RAG Search Engine  
+**Documents + Real-Time Web Intelligence**
+
+---
+
+## 📌 Project Overview
+
+**GA02** is a **Hybrid Retrieval-Augmented Generation (RAG) Search Engine** that enables intelligent question-answering across:
+
+- 📄 **Multiple local documents** (PDFs, text files)
+- 🌐 **Real-time web data** (via Tavily Search)
+
+The system dynamically decides **where to retrieve information from** — documents, live web, or both — and generates **grounded answers with clear citations**, all through a clean **Streamlit-based chatbot UI**.
+
+This project simulates **real-world enterprise AI copilots** used in research, knowledge intelligence, and internal search platforms.
+
+---
+
+## 🎯 Objective
+
+The primary goal of this project is to build a **medium-complexity hybrid RAG system** that:
+
+- Creates a searchable knowledge base from multiple documents
+- Uses **FAISS** for semantic vector search
+- Integrates **Tavily** for real-time web queries
+- Classifies queries into **Document / Web / Hybrid**
+- Generates **citation-aware answers**
+- Provides a user-friendly **Streamlit UI**
+
+---
+
+## 🧠 Key Capabilities
+
+- 🔍 **Multi-document semantic search**
+- 🧩 **Hybrid RAG architecture**
+- 🌐 **Live web search integration**
+- 🧠 **LLM-based query routing**
+- 📎 **Source-grounded answers**
+- 🎨 **Modern, cinematic Streamlit UI**
+- 🧪 **Transparent evidence inspection**
+
+---
+
+## 🛠️ Tech Stack (Strictly Followed)
+
+| Component | Technology |
+|--------|-----------|
+| Programming Language | Python |
+| LLM Orchestration | LangChain |
+| Vector Database | FAISS |
+| Embeddings | HuggingFace (MiniLM) |
+| LLM | Groq (LLaMA 3.1) |
+| Web Search | Tavily Search |
+| Frontend | Streamlit |
+| Environment | dotenv |
+
+---
+
+## 📂 Data Sources
+
+### Local Knowledge Base
+- PDF documents
+- Text files
+- Wikipedia pages (via LangChain loaders)
+
+### Real-Time Knowledge
+- Tavily Web Search:
+  - Current events
+  - Recent research
+  - Live statistics
+  - News & updates
 
 ---
 
